@@ -1,6 +1,6 @@
 # skills
 
-Agent skills shared across PerfectPan repositories. Each skill lives in `skills/<name>/` with a `SKILL.md` and the assets and references it points to.
+Agent skills shared across PerfectPan repositories. Each skill lives in `skills/<name>/` with a `SKILL.md` and the supporting resources it points to.
 
 | Skill | Use |
 | --- | --- |
