@@ -4,11 +4,13 @@ Agent skills shared across PerfectPan repositories. Each skill lives in `skills/
 
 | Skill | Use |
 | --- | --- |
+| [code-cleanup](skills/code-cleanup/SKILL.md) | Audit low-value tests and duplicated implementations, then apply evidence-backed cleanup when requested. |
 | [release-setup](skills/release-setup/SKILL.md) | Set up or migrate an npm repository's release flow to Changesets with a draft version PR and Trusted Publishing. |
 
 Install one skill with the [Skills CLI](https://github.com/vercel-labs/skills):
 
 ```bash
+npx skills add PerfectPan/skills --skill code-cleanup
 npx skills add PerfectPan/skills --skill release-setup
 ```
 
